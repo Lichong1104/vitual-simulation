@@ -1,0 +1,50 @@
+.content {
+  margin-top: 20px;
+  border: 1px solid gray;
+  height: 80%;
+  display: flex;
+  background-color: white;
+  flex-wrap: nowrap;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px 4px rgba(128, 128, 128, 0.406);
+  .contentLef {
+    width: 65%;
+    height: 100%;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .contentRig {
+    .action {
+      .cloudContainer {
+        margin: 24px 0 0 2vw;
+        position: relative;
+        background-color: #f0f0f0; /* 云彩的背景色 */
+        border-radius: 20px;
+        padding: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.644); /* 添加阴影效果 */
+      }
+
+      .arrow {
+        position: absolute;
+        bottom: -30px; /* 调整箭头位置 */
+        left: 30%;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 30px solid #f0f0f0; /* 与云彩背景色一致 */
+        transform: translateX(-50%);
+      }
+      .teacher {
+        margin-top: 12px;
+        margin-left: 0px;
+        height: 20vw;
+        float: left;
+      }
+    }
+  }
+}

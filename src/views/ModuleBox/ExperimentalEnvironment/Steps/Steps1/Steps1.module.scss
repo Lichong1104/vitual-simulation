@@ -1,0 +1,29 @@
+.mainBox {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  padding: 16px;
+  background-image: url("../image/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-size: cover;
+  position: relative;
+}
+.title {
+  font-size: 2vw;
+  color: rgba(255, 255, 255, 0.792);
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  p {
+    width: 80%;
+    font-size: 1.2vw;
+    color: rgba(255, 255, 255, 0.792);
+    line-height: 50px;
+    text-indent: 3rem;
+  }
+}

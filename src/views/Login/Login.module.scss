@@ -1,0 +1,77 @@
+.loginBox {
+  height: 100vh;
+  background-image: url("../../image/loginBackground.jpg");
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: hidden;
+}
+.lef {
+  border: 1px solid rgba(128, 128, 128, 0.349);
+  overflow: hidden;
+  width: 25%;
+  margin: 12vw 20vw;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 71.9px 50.9px 29px rgba(0, 0, 0, 0.046), 87.6px 62px 51.1px rgba(0, 0, 0, 0.077),
+    98px 69.3px 71.8px rgba(0, 0, 0, 0.095), 108px 76.4px 103.6px rgba(0, 0, 0, 0.104),
+    119.8px 84.8px 161.5px rgba(0, 0, 0, 0.113), 134.7px 95.3px 252.4px rgba(0, 0, 0, 0.139),
+    154px 109px 372px rgba(0, 0, 0, 0.22);
+}
+.title {
+  //   margin-top: 8vh;
+  text-align: center;
+  font-size: 1.8vw;
+  transition: 0.2s;
+}
+.desc {
+  margin-top: 8vh;
+  font-size: 36px;
+  font-weight: 500;
+}
+.login {
+  margin-top: 5vh;
+  font-size: 38px;
+}
+
+.form {
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    color: gray;
+    font-size: 12px;
+    width: 18vw;
+  }
+}
+.input {
+  width: 18vw;
+  height: 40px;
+  margin: 8px 0;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.692);
+  text-indent: 8px;
+}
+.input:focus {
+  border: 2px solid #63538c;
+}
+.btnBox {
+  margin-top: 30px;
+  .btn {
+    width: 18vw;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    height: 40px;
+    background-color: #63538c;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .btn:hover {
+    background-color: #512cb9;
+  }
+}
