@@ -12,7 +12,7 @@ function ExperimentalEnvironment() {
       <div className={style.homeBox}>
         <div className={style.topBox}>
           <div className={style.title}>
-            <img src={img} alt="logo" />
+            <img src={"https://www.nxnu.edu.cn/banner/logox.png"} alt="logo" />
           </div>
         </div>
         <div className={style.content}>
