@@ -43,7 +43,7 @@ function HeaderContent() {
   });
   const logout = () => {
     removeToken();
-    Jump("/login");
+    // Jump("/login");
   };
   //带进度跳转
   const Jump = (url) => {
