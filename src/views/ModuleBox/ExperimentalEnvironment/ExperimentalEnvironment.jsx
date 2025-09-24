@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+// import React, { useRef } from "react";
 import { useHistory } from "react-router-dom";
 import style from "./ExperimentalEnvironment.module.scss";
-import img from "../../../image/微信图片_20230606161559.png";
-import { Button, Space } from "antd";
+// import img from "../../../image/微信图片_20230606161559.png";
+// import { Button, Space } from "antd";
 
 function ExperimentalEnvironment() {
   const history = useHistory();
